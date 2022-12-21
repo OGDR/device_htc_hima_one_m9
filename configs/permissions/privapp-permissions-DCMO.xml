@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions
+  package="com.android.sdm.plugins.dcmo" file="/product/priv-app/DCMO/DCMO.apk">          
+</permissions>
