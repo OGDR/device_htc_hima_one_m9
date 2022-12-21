@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions
+   package="com.android.sdm.plugins.connmo" file="/product/priv-app/ConnMO/ConnMO.apk">
+  <permission name= "android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+  <permission name= "android.permission.WRITE_APN_SETTINGS"/>           
+</permissions>

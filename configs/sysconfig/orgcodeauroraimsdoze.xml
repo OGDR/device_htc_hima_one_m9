@@ -1,0 +1,4 @@
+<config>
+    <allow-in-power-save package="org.codeaurora.ims" />
+    <allow-in-data-usage-save package="org.codeaurora.ims" />
+</config>
