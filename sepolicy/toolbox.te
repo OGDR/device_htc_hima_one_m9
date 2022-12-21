@@ -1,0 +1,5 @@
+allow toolbox diag_device:chr_file {read write};
+allowxperm toolbox self:udp_socket ioctl priv_sock_ioctls;
+allow toolbox self:capability {net_admin};
+allow toolbox self:udp_socket {create ioctl};
+
