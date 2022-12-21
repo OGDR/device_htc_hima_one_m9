@@ -94,37 +94,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/configs/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_libpermissions.xml \
 	$(LOCAL_PATH)/configs/permissions/qti-vzw-ims-internal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti-vzw-ims-internal.xml \
 	$(LOCAL_PATH)/configs/permissions/rcsservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/rcsservice.xml
-#	$(LOCAL_PATH)/configs/permissions/privapp-permissions-wfcactivation.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-wfcactivation.xml
-#	$(LOCAL_PATH)/configs/permissions/QtiTelephonyService.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/QtiTelephonyService.xml \
-#	$(LOCAL_PATH)/configs/permissions/cneapiclient.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/cneapiclient.xml \
-#	frameworks/native/data/etc/android.hardware.telephony.mbms.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.mbms.xml \
-#	$(LOCAL_PATH)/configs/permissions/com.quicinc.cne.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.quicinc.cne.xml \
-#	$(LOCAL_PATH)/configs/permissions/com.verizon.embms.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.verizon.embms.xml \
-	#	$(LOCAL_PATH)/configs/permissions/privapp-permissions-hima.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-hima.xml \
-	#	$(LOCAL_PATH)/configs/permissions/com.android.vzwomatrigger.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.android.vzwomatrigger.xml \
-	#	$(LOCAL_PATH)/configs/permissions/com.android.omadm.service.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.omadm.service.xml \
-#	$(LOCAL_PATH)/configs/permissions/obdm_permissions.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/obdm_permissions.xml \
-#	frameworks/native/data/etc/android.hardware.telephony.euicc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.euicc.xml \
-#	$(LOCAL_PATH)/configs/permissions/vzw_mvs_permissions.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/vzw_mvs_permissions.xml \
-#	$(LOCAL_PATH)/configs/permissions/privapp-permissions-ConnMO.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-ConnMO.xml \
-#	$(LOCAL_PATH)/configs/permissions/privapp-permissions-DCMO.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-DCMO.xml \
-# $(LOCAL_PATH)/configs/permissions/com.verizon.hardware.telephony.ehrpd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml \
-# $(LOCAL_PATH)/configs/permissions/com.verizon.hardware.telephony.lte.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.verizon.hardware.telephony.lte.xml \
-# $(LOCAL_PATH)/configs/permissions/com.verizon.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.verizon.ims.xml \
-#	$(LOCAL_PATH)/configs/permissions/imscm.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/imscm.xml \
-#	$(LOCAL_PATH)/configs/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_permissions.xml \
-#	$(LOCAL_PATH)/configs/permissions/embms_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/embms_permissions.xml \
-	# $(LOCAL_PATH)/configs/permissions/izat.xt.srv.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/izat.xt.srv.xml \
-# $(LOCAL_PATH)/configs/permissions/com.qti.location.sdk.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qti.location.sdk.xml \
-# $(LOCAL_PATH)/configs/permissions/rcs_service_aidl.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/rcs_service_aidl.xml \
-# $(LOCAL_PATH)/configs/permissions/rcs_service_api.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/rcs_service_api.xml \
-# $(LOCAL_PATH)/configs/permissions/QtiTelephonyService.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/QtiTelephonyService.xml \
-# $(LOCAL_PATH)/configs/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_libpermissions.xml \
- # $(LOCAL_PATH)/configs/permissions/privapp-com.qualcomm.location.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-com.qualcomm.location.xml\
- #$(LOCAL_PATH)/configs/permissions/com.qualcomm.location.vzw_library.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.location.vzw_library.xml
- #	$(LOCAL_PATH)/configs/permissions/org.codeaurora.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/org.codeaurora.ims.xml \
-# $(LOCAL_PATH)/configs/permissions/privapp-permissions-WfcActivation.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-WfcActivation.xml
- #   frameworks/native/data/etc/android.hardware.telephony.carrierlock.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.carrierlock.xml \
 
 # Additional native libraries
 PRODUCT_COPY_FILES += \
@@ -491,15 +460,4 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
-    $(LOCAL_PATH)/configs/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf
-
-#PRODUCT_COPY_FILES += \
-#$(LOCAL_PATH)/qcril_database/upgrade/1_version_intro.sql:$(TARGET_OUT_VENDOR)/qcril_database/upgrade/1_version_intro.sql \
-#$(LOCAL_PATH)/qcril_database/upgrade/2_db_upgrade.sql:$(TARGET_OUT_VENDOR)/qcril_database/upgrade/2_db_upgrade.sql \
-#$(LOCAL_PATH)/qcril_database/upgrade/3_remove_ecc_999_from_us_and_canada.sql:$(TARGET_OUT_VENDOR)/qcril_database/upgrade/3_remove_ecc_999_from_us_and_canada.sql \
-#$(LOCAL_PATH)/qcril_database/upgrade/4_db_upgrade.sql:$(TARGET_OUT_VENDOR)/qcril_database/upgrade/4_db_upgrade.sql \
-#$(LOCAL_PATH)/qcril_database/upgrade/5_update_india_ecc.sql:$(TARGET_OUT_VENDOR)/qcril_database/upgrade/5_update_india_ecc.sql \
-#$(LOCAL_PATH)/qcril_database/upgrade/6_recheck_ecc_setting.sql:$(TARGET_OUT_VENDOR)/qcril_database/upgrade/6_recheck_ecc_setting.sql \
-#$(LOCAL_PATH)/qcril_database/upgrade/7_singapore_ecc_995.sql:$(TARGET_OUT_VENDOR)/qcril_database/upgrade/7_singapore_ecc_995.sql \
-#$(LOCAL_PATH)/qcril_database/upgrade/8_germany_ecc_110.sql:$(TARGET_OUT_VENDOR)/qcril_database/upgrade/8_germany_ecc_110.sql \
-#$(LOCAL_PATH)/qcril_database/upgrade/9_remove_germany_ecc_110.sql:$(TARGET_OUT_VENDOR)/qcril_database/upgrade/9_remove_germany_ecc_110.sql \
+    $(LOCAL_PATH)/configs/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.con
