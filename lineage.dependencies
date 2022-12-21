@@ -1,0 +1,10 @@
+[
+  {
+    "repository": "android_kernel_htc_msm8994",
+    "target_path": "kernel/htc/msm8994"
+  },
+  {
+    "repository": "android_packages_apps_FlipFlap",
+    "target_path": "packages/apps/FlipFlap"
+  }
+]

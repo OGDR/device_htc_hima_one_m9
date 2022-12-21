@@ -1,112 +1,23 @@
-# device_htc_hima_one_m9![himaul](https://user-images.githubusercontent.com/29492539/208990365-37c97089-0a60-485c-bca7-3180046e24ae.png)
+Copyright 2015 - The CyanogenMod Project
+Copyright 2017 - The LineageOS Project
 
+Device configuration for HTC M9.
+=====================================
 
-Specifications
+Basic   | Spec Sheet
+-------:|:-------------------------
+CPU     | Quad-core 2.0 GHz ARM® Cortex™ A57 and quad-core 1.5 GHz ARM® Cortex™ A53
+CHIPSET | Qualcomm MSM8994 Snapdragon 810
+GPU     | Adreno 430
+Memory  | 3 GB
+Shipped Android Version | 5.0.1
+Storage | 32 GB
+MicroSD | Up to 128 GB
+Battery | 2840 mAh (non-removable)
+Dimensions | 144.6 x 69.7 x 9.6 mm (5.69 x 2.74 x 0.38 in)
+Display | 1080 x 1920 pixels, 5.1" Super LCD3
+Rear Camera  | 20.7 MP, dual-LED flash
+Front Camera | 4.0 MP
+Release Date | March 2015
 
-
-SoC
-
-Qualcomm MSM8994 Snapdragon 810
-
-
-
-RAM
-3 GB
-
-
-CPU
-
-Octa-core
-Cortex-A53 & Cortex-A57
-4 x 1.5 Ghz + 4 x 2 Ghz
-
-
-
-Architecture
-arm64
-
-
-GPU
-Adreno 430
-
-
-Network
-
-2G GSM
-3G UMTS
-4G LTE
-
-
-
-
-Storage
-32 GB
-
-
-SD card
-Up to 2 TB
-
-
-
-Screen
-
-127 mm (5.0 in)
-
-1080x1920 (441 PPI)
-
-Super LCD3
-
-
-
-Bluetooth
-
-4.1 with A2DP + aptX
-
-
-
-Wi-Fi
-802.11 a/b/g/n/ac (2.4 & 5 GHz)
-
-
-Peripherals
-Dual front speakers
-Accelerometer
-Gyroscope
-Proximity sensor
-Compass
-GPS
-Hall effect sensor
-NFC
-IR blaster
-
-
-
-
-Cameras
-2
-
-20 MP,
-Dual LED flash
-
-
-4 MP,
-No flash
-
-
-
-
-
-Dimensions
-
-144.6 mm (5.69 in) (h)
-
-69.7 mm (2.74 in) (w)
-
-9.6 mm (0.38 in) (d)
-
-
-
-Battery
-
-Non-removable Li-Po 2840 mAh
-
+![HTC M9](http://cdn2.gsmarena.com/vv/pics/htc/htc-one-m9-3.jpg "HTC M9")
